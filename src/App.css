@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #25262c;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #1b1c22;
+  height: 75vh;
+  width: 80vw;
+  border-radius: 15px;
+}
+
+.imageContainer {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textInputContainer {
+  width: 40vw;
+  background-color: #25262c;
+
+  padding: 2%;
+  margin: 2%;
+  border-radius: 15px;
+}
+
+.textArea {
+  background-color: #25262c;
+  color: white;
+  width: 100%;
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+.selectorIconsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.customButton {
+  background-color: transparent;
+  border: none;
+}
